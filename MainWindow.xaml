@@ -1,0 +1,30 @@
+﻿<Window x:Class="U2GoodTimes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U2GoodTimes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="258.175" Width="489.067">
+    <Grid Margin="0,0,2,0">
+        <Label Content="Enter a time" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="findTime" Click="findTime_Click" Content="Find the Time" HorizontalAlignment="Left" Height="29" Margin="13,109,0,0" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="timeEnt" HorizontalAlignment="Left" Height="68" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <Label Content="NewFoundLand Time" HorizontalAlignment="Left" Height="34" Margin="122,18,0,0" VerticalAlignment="Top" Width="130"/>
+        <!-- All the labels below are the labels that show the times -->
+        <Label Content="Atlantic Time" HorizontalAlignment="Left" Height="34" Margin="122,52,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Eastern Time" HorizontalAlignment="Left" Height="34" Margin="122,86,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Central Time" HorizontalAlignment="Left" Height="34" Margin="122,120,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Mountain Time" HorizontalAlignment="Left" Height="34" Margin="122,154,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Pacific Time" HorizontalAlignment="Left" Height="34" Margin="122,188,0,0" VerticalAlignment="Top" Width="130"/>
+        <!-- All the labels below are the variable times -->
+        <Label x:Name="lblnflTime" Content="" HorizontalAlignment="Left" Height="34" Margin="252,10,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblatlTime" HorizontalAlignment="Left" Height="34" Margin="252,52,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblestTime" Content="" HorizontalAlignment="Left" Height="34" Margin="252,86,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblcntTime" Content="" HorizontalAlignment="Left" Height="34" Margin="252,120,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblmntTime" Content="" HorizontalAlignment="Left" Height="34" Margin="252,154,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblpacTime" Content="" HorizontalAlignment="Left" Height="34" Margin="252,188,0,0" VerticalAlignment="Top" Width="217"/>
+
+
+    </Grid>
+</Window>
